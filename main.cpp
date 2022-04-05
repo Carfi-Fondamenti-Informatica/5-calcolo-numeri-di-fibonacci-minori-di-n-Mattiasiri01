@@ -8,13 +8,11 @@ int main() {
     cout<<"1 "<<endl;
     cout<<"1 "<<endl;
 
-    do{
-        c=a+b;
+    while(n>=(a+b)){
+        c = a+b;
         cout<<c<<endl;
         b=a;
         a=c;
     }
-    while(n>=a+b);
 
     return 0;
-}
