@@ -14,6 +14,5 @@ int main(){
         b=a;
         a=c;
     }
+  return 0;
 }
-
-    return 0;
