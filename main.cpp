@@ -14,7 +14,7 @@ int main() {
         b=a;
         a=c;
     }
-    while(n>=(a+b));
+    while(n>=a+b);
 
     return 0;
 }
